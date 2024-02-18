@@ -20,8 +20,11 @@ body {
 }
 
 main {
-	width: 70%;
-	margin: 0 auto;
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 h1 {
@@ -89,16 +92,14 @@ button {
 @media (min-width: 1200px) {
 	main {
 		display: flex;
+		width: 80%;
+		justify-content: center;
+		align-items: center;
 	}
 
 	.luxury,
 	.sedan {
 		border-radius: 0;
-	}
-
-	main {
-		width: 70%;
-		margin: 0 auto;
 	}
 
 	.sedan,
