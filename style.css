@@ -19,6 +19,11 @@ body {
 	gap: 5em;
 }
 
+main {
+	width: 70%;
+	margin: 0 auto;
+}
+
 h1 {
 	font-family: "Big Shoulders Display", sans-serif;
 	font-optical-sizing: auto;
