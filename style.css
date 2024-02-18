@@ -16,6 +16,8 @@ body {
 	padding: 2em 1em;
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	gap: 5em;
 }
 
@@ -40,8 +42,6 @@ p {
 .suv,
 .luxury {
 	padding: 48px;
-	width: 80%;
-	margin: 0 auto;
 }
 
 .sedan {
@@ -88,7 +88,6 @@ button {
 		display: flex;
 		flex-direction: row;
 		width: 80%;
-		margin: 0 auto;
 	}
 
 	.luxury,
