@@ -98,7 +98,10 @@ button {
 	.sedan,
 	.luxury,
 	.suv {
-		height: 70vh;
+		height: 60vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
 	}
 
 	.sedan {
@@ -109,10 +112,6 @@ button {
 	.luxury {
 		border-top-right-radius: 0.7em;
 		border-bottom-right-radius: 0.7em;
-	}
-
-	button {
-		margin-top: 6em;
 	}
 
 	button:hover {
